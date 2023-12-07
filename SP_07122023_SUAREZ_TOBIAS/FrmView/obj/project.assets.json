@@ -493,11 +493,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Tobas\\Desktop\\SP_07122023_SUAREZ_TOBIAS\\FrmView\\FrmView.csproj",
+      "projectUniqueName": "C:\\Users\\Tobas\\Desktop\\RSP_07122023\\SP_07122023_SUAREZ_TOBIAS\\FrmView\\FrmView.csproj",
       "projectName": "FrmView",
-      "projectPath": "C:\\Users\\Tobas\\Desktop\\SP_07122023_SUAREZ_TOBIAS\\FrmView\\FrmView.csproj",
+      "projectPath": "C:\\Users\\Tobas\\Desktop\\RSP_07122023\\SP_07122023_SUAREZ_TOBIAS\\FrmView\\FrmView.csproj",
       "packagesPath": "C:\\Users\\Tobas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Tobas\\Desktop\\SP_07122023_SUAREZ_TOBIAS\\FrmView\\obj\\",
+      "outputPath": "C:\\Users\\Tobas\\Desktop\\RSP_07122023\\SP_07122023_SUAREZ_TOBIAS\\FrmView\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Tobas\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -514,8 +514,8 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\Users\\Tobas\\Desktop\\SP_07122023_SUAREZ_TOBIAS\\Entidades\\Entidades.csproj": {
-              "projectPath": "C:\\Users\\Tobas\\Desktop\\SP_07122023_SUAREZ_TOBIAS\\Entidades\\Entidades.csproj"
+            "C:\\Users\\Tobas\\Desktop\\RSP_07122023\\SP_07122023_SUAREZ_TOBIAS\\Entidades\\Entidades.csproj": {
+              "projectPath": "C:\\Users\\Tobas\\Desktop\\RSP_07122023\\SP_07122023_SUAREZ_TOBIAS\\Entidades\\Entidades.csproj"
             }
           }
         }

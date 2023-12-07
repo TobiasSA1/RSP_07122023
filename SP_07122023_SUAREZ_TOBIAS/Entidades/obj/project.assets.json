@@ -475,11 +475,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Tobas\\Desktop\\SP_07122023_SUAREZ_TOBIAS\\Entidades\\Entidades.csproj",
+      "projectUniqueName": "C:\\Users\\Tobas\\Desktop\\RSP_07122023\\SP_07122023_SUAREZ_TOBIAS\\Entidades\\Entidades.csproj",
       "projectName": "Entidades",
-      "projectPath": "C:\\Users\\Tobas\\Desktop\\SP_07122023_SUAREZ_TOBIAS\\Entidades\\Entidades.csproj",
+      "projectPath": "C:\\Users\\Tobas\\Desktop\\RSP_07122023\\SP_07122023_SUAREZ_TOBIAS\\Entidades\\Entidades.csproj",
       "packagesPath": "C:\\Users\\Tobas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Tobas\\Desktop\\SP_07122023_SUAREZ_TOBIAS\\Entidades\\obj\\",
+      "outputPath": "C:\\Users\\Tobas\\Desktop\\RSP_07122023\\SP_07122023_SUAREZ_TOBIAS\\Entidades\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Tobas\\AppData\\Roaming\\NuGet\\NuGet.Config",

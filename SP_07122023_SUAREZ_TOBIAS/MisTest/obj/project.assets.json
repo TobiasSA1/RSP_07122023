@@ -6794,11 +6794,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Tobas\\Desktop\\SP_07122023_SUAREZ_TOBIAS\\MisTest\\MisTest.csproj",
+      "projectUniqueName": "C:\\Users\\Tobas\\Desktop\\RSP_07122023\\SP_07122023_SUAREZ_TOBIAS\\MisTest\\MisTest.csproj",
       "projectName": "MisTest",
-      "projectPath": "C:\\Users\\Tobas\\Desktop\\SP_07122023_SUAREZ_TOBIAS\\MisTest\\MisTest.csproj",
+      "projectPath": "C:\\Users\\Tobas\\Desktop\\RSP_07122023\\SP_07122023_SUAREZ_TOBIAS\\MisTest\\MisTest.csproj",
       "packagesPath": "C:\\Users\\Tobas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Tobas\\Desktop\\SP_07122023_SUAREZ_TOBIAS\\MisTest\\obj\\",
+      "outputPath": "C:\\Users\\Tobas\\Desktop\\RSP_07122023\\SP_07122023_SUAREZ_TOBIAS\\MisTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Tobas\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6815,8 +6815,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Tobas\\Desktop\\SP_07122023_SUAREZ_TOBIAS\\Entidades\\Entidades.csproj": {
-              "projectPath": "C:\\Users\\Tobas\\Desktop\\SP_07122023_SUAREZ_TOBIAS\\Entidades\\Entidades.csproj"
+            "C:\\Users\\Tobas\\Desktop\\RSP_07122023\\SP_07122023_SUAREZ_TOBIAS\\Entidades\\Entidades.csproj": {
+              "projectPath": "C:\\Users\\Tobas\\Desktop\\RSP_07122023\\SP_07122023_SUAREZ_TOBIAS\\Entidades\\Entidades.csproj"
             }
           }
         }

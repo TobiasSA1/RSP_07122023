@@ -6,42 +6,32 @@ using Entidades.Interfaces;
 using Entidades.Modelos;
 using System.Net;
 using System.Text.Json;
-
 namespace FrmView
 {
-    /// <summary>
-    /// Clase principal del formulario.
-    /// </summary>
     public partial class FrmView : Form
     {
-        private Queue<IComestible> comidas;
-
-        Cocinero<Hamburguesa> hamburguesero;
+        private IComestible comida;
+        private Cocinero<Hamburguesa> hamburguesero;
 
         public FrmView()
         {
             InitializeComponent();
 
-            this.comidas = new Queue<IComestible>();
-
             this.hamburguesero = new Cocinero<Hamburguesa>("Ramon");
 
             this.hamburguesero.OnDemora += this.MostrarConteo;
-            this.hamburguesero.OnIngreso += this.MostrarComida;
+            this.hamburguesero.OnPedido += this.MostrarComida;
         }
-        /// <summary>
-        /// Muestra la comida en el formulario.
-        /// </summary>
-        /// <param name="comida">La comida a mostrar.</param>
-        private void MostrarComida(IComestible comida)
+
+        private void MostrarComida(Hamburguesa pedido)
         {
             try
             {
                 DataBaseManager dataBaseManager = new DataBaseManager();
 
-                this.comidas.Enqueue(comida);
+                this.comida = pedido;
 
-                string rutaImagen = dataBaseManager.GetImagenComida(comida.Imagen);
+                string rutaImagen = dataBaseManager.GetImagenComida(pedido.Imagen);
 
                 if (!string.IsNullOrEmpty(rutaImagen))
                 {
@@ -55,7 +45,7 @@ namespace FrmView
                                 this.Invoke((MethodInvoker)delegate
                                 {
                                     this.pcbComida.Image = Image.FromStream(ms);
-                                    this.rchElaborando.Text = comida.ToString();
+                                    this.rchElaborando.Text = pedido.ToString();
                                 });
                             }
                         }
@@ -65,7 +55,7 @@ namespace FrmView
                         this.Invoke((MethodInvoker)delegate
                         {
                             this.pcbComida.Image = Image.FromFile(rutaImagen);
-                            this.rchElaborando.Text = comida.ToString();
+                            this.rchElaborando.Text = pedido.ToString();
                         });
                     }
                 }
@@ -86,10 +76,6 @@ namespace FrmView
             }
         }
 
-        /// <summary>
-        /// Muestra el tiempo ACTUAL de preparacion y el PROMEDIO TOTAL.
-        /// </summary>
-        /// <param name="tiempo">El tiempo de espera.</param>
         private void MostrarConteo(double tiempo)
         {
             this.Invoke((MethodInvoker)delegate
@@ -99,19 +85,11 @@ namespace FrmView
             });
         }
 
-        /// <summary>
-        /// Actualiza la lista de comestibles atendidos.
-        /// </summary>
-        /// <param name="comida">La comida atendida.</param>
-        private void ActualizarAtendidos(IComestible comida)
-        {
-            this.rchFinalizados.Text += "\n" + comida.Ticket;
-        }
+        //private void ActualizarAtendidos(IComestible comida)
+        //{
+        //    this.rchFinalizados.Text += "\n" + comida.Ticket;
+        //}
 
-        /// <summary>
-        /// Maneja el evento del botón "Abrir/Cerrar Cocina".
-        /// </summary>
-        /// <param name="sender">El objeto que genero el evento.</param>
         private void btnAbrir_Click(object sender, EventArgs e)
         {
             try
@@ -133,6 +111,7 @@ namespace FrmView
                 FileManager.RegistrarExcepcion(ex);
 
                 Exception innerException = ex.InnerException;
+
                 while (innerException != null)
                 {
                     MessageBox.Show($"{innerException.Message}", "Atención", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -147,35 +126,21 @@ namespace FrmView
                 FileManager.RegistrarExcepcion(ex);
             }
         }
-        /// <summary>
-        /// Maneja el evento del botón "Siguiente".
-        /// </summary>
-        /// <param name="sender">El objeto que genero el evento.</param>
-        /// <param name="e">Argumentos del evento.</param>
+
         private void btnSiguiente_Click(object sender, EventArgs e)
         {
-            if (this.comidas.Count > 0)
+            if (this.comida != null)
             {
-
-                IComestible comida = this.comidas.Dequeue();
-
-                comida.FinalizarPreparacion(this.hamburguesero.Nombre);
-
-                this.ActualizarAtendidos(comida);
+                this.comida.FinalizarPreparacion(this.hamburguesero.Nombre);
+                //this.ActualizarAtendidos(this.comida);
+                this.comida = null;
             }
-
             else
             {
                 MessageBox.Show("El Cocinero no posee comidas.", "Atencion", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
-
         }
 
-        /// <summary>
-        /// Maneja el evento de cierre del formulario.
-        /// </summary>
-        /// <param name="sender">El objeto que genero el evento.</param>
-        /// <param name="e">Argumentos del evento.</param>
         private void FrmView_FormClosing(object sender, FormClosingEventArgs e)
         {
             try

@@ -10,3 +10,21 @@
    at Entidades.Files.FileManager.ValidaExistenciaDeDirectorio() in C:\Users\Tobas\Desktop\SP_07122023_ALUMNO\Entidades\Archivos\FileManager.cs:line 28
 07/12/2023 17:49:52 - Entidades.Exceptions.FileManagerException: Error el directorio ya existe.
    at Entidades.Files.FileManager.ValidaExistenciaDeDirectorio() in C:\Users\Tobas\Desktop\SP_07122023_ALUMNO\Entidades\Archivos\FileManager.cs:line 28
+07/12/2023 20:16:28 - System.IO.IOException: El nombre de archivo, el nombre de directorio o la sintaxis de la etiqueta del volumen no son correctos. : 'C:\Users\Tobas\Desktop\SP_07122023_SUAREZ_TOBIAS\20231207_Suarez_Tobias\archivo<>invalido.txt'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.StreamWriter.ValidateArgsAndOpenPath(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at Entidades.Files.FileManager.Guardar(String data, String nombreArchivo, Boolean append) in C:\Users\Tobas\Desktop\SP_07122023_SUAREZ_TOBIAS\Entidades\Archivos\FileManager.cs:line 56
+07/12/2023 21:27:38 - System.IO.IOException: El nombre de archivo, el nombre de directorio o la sintaxis de la etiqueta del volumen no son correctos. : 'C:\Users\Tobas\Desktop\SP_07122023_SUAREZ_TOBIAS\20231207_Suarez_Tobias\archivo<>invalido.txt'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.StreamWriter.ValidateArgsAndOpenPath(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at Entidades.Files.FileManager.Guardar(String data, String nombreArchivo, Boolean append) in C:\Users\Tobas\Desktop\SP_07122023_SUAREZ_TOBIAS\Entidades\Archivos\FileManager.cs:line 56

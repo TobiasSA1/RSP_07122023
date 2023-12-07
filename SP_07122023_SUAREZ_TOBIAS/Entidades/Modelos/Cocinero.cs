@@ -7,22 +7,9 @@ using System.ComponentModel.Design;
 
 namespace Entidades.Modelos
 {
-    /// <summary>
-    /// Delegado para notificar demora en la atención.
-    /// </summary>
-    /// <param name="demora">Tiempo de demora en la atención.</param>
     public delegate void DelegadoDemoraAtencion(double demora);
+    public delegate void DelegadoPedidoEnCurso<T>(T pedido);
 
-    /// <summary>
-    /// Delegado para notificar nuevo ingreso de comestible.
-    /// </summary>
-    /// <param name="menu">Comestible ingresado.</param>
-    public delegate void DelegadoNuevoIngreso(IComestible menu);
-
-    /// <summary>
-    /// Clase genérica que representa a un cocinero capaz de preparar comestibles.
-    /// </summary>
-    /// <typeparam name="T">Tipo de comestible que puede preparar el cocinero.</typeparam>
     public class Cocinero<T> where T : IComestible, new()
     {
         private int cantPedidosFinalizados;
@@ -30,20 +17,18 @@ namespace Entidades.Modelos
         private double demoraPreparacionTotal;
         private CancellationTokenSource cancellation;
         private Task tarea;
-        private T menu;
+        private T pedidoEnPreparacion;
+        private Queue<T> pedidos;
+        private Mozo<T> mozo;
 
-        /// <summary>
-        /// Constructor de la clase Cocinero.
-        /// </summary>
-        /// <param name="nombre">Nombre del cocinero.</param>
         public Cocinero(string nombre)
         {
             this.nombre = nombre;
+            this.mozo = new Mozo<T>();
+            this.mozo.OnPedido += this.TomarNuevoPedido;
+            this.pedidos = new Queue<T>();
         }
 
-        /// <summary>
-        /// Obtiene o establece si la cocina está habilitada.
-        /// </summary>
         public bool HabilitarCocina
         {
             get
@@ -60,94 +45,71 @@ namespace Entidades.Modelos
                               this.tarea.Status != TaskStatus.WaitingForActivation))
                 {
                     this.cancellation = new CancellationTokenSource();
-                    this.tarea = Task.Run(() => this.IniciarIngreso());
+                    this.tarea = Task.Run(() => this.EmpezarACocinar());
+                    this.mozo.EmpezarATrabajar = true;
                 }
                 else
                 {
                     this.cancellation?.Cancel();
+                    this.mozo.EmpezarATrabajar = false;
                 }
             }
         }
 
-        /// <summary>
-        /// Obtiene el tiempo medio de preparación de los pedidos finalizados.
-        /// </summary>
         public double TiempoMedioDePreparacion
         {
             get => this.cantPedidosFinalizados == 0 ? 0 : this.demoraPreparacionTotal / this.cantPedidosFinalizados;
         }
-        /// <summary>
-        /// Obtiene el nombre del cocinero.
-        /// </summary>
+
         public string Nombre { get => nombre; }
 
-        /// <summary>
-        /// Obtiene la cantidad de pedidos finalizados.
-        /// </summary>
         public int CantPedidosFinalizados { get => cantPedidosFinalizados; }
 
-        /// <summary>
-        /// Inicia el proceso de ingreso y preparación de comestibles.
-        /// </summary>
-        private void IniciarIngreso()
+        public Queue<T> Pedidos { get => pedidos; }
+
+        private void EmpezarACocinar()
         {
             while (!cancellation.Token.IsCancellationRequested)
             {
-                this.NotificarNuevoIngreso();
-                this.EsperarProximoIngreso();
-                this.cantPedidosFinalizados++;
-                DataBaseManager dataBaseManager = new DataBaseManager();
-                dataBaseManager.GuardarTicket(this.nombre, this.menu);
+                if (this.pedidos.Count > 0)
+                {
+                    this.pedidoEnPreparacion = this.pedidos.Dequeue();
+                    this.OnPedido?.Invoke(this.pedidoEnPreparacion);
+                    this.EsperarProximoIngreso();
+                    this.cantPedidosFinalizados++;
+                    DataBaseManager dataBaseManager = new DataBaseManager();
+                    dataBaseManager.GuardarTicket(this.nombre, this.pedidoEnPreparacion);
+                    this.pedidoEnPreparacion = default(T); 
+                }
             }
         }
 
-        /// <summary>
-        /// Notifica el nuevo ingreso de un comestible.
-        /// </summary>
-        private void NotificarNuevoIngreso()
-        {
-            DelegadoNuevoIngreso handler = this.OnIngreso;
-
-            if (handler != null)
-            {
-                this.menu = new T();
-                this.menu.IniciarPreparacion();
-                handler.Invoke(this.menu);
-            }
-        }
-
-        /// <summary>
-        /// Espera el próximo ingreso de comestible y actualiza el tiempo de espera.
-        /// </summary>
         private void EsperarProximoIngreso()
         {
             int tiempoEspera = 0;
 
-            while (!cancellation.Token.IsCancellationRequested && this.menu.Estado == false)
+            while (!cancellation.Token.IsCancellationRequested && this.pedidoEnPreparacion.Estado == false)
             {
                 if (this.OnDemora != null)
                 {
                     this.OnDemora.Invoke(tiempoEspera);
                 }
-
                 Thread.Sleep(1000);
-
                 tiempoEspera++;
-
             }
 
             this.demoraPreparacionTotal += tiempoEspera;
         }
 
-        /// <summary>
-        /// Evento que se dispara cuando hay demora en la atención.
-        /// </summary>
+        public void TomarNuevoPedido(T pedido)
+        {
+            if (this.OnPedido != null)
+            {
+                this.pedidos.Enqueue(pedido);
+            }
+        }
+
         public event DelegadoDemoraAtencion OnDemora;
-
-        /// <summary>
-        /// Evento que se dispara cuando hay un nuevo ingreso de comestible.
-        /// </summary>
-        public event DelegadoNuevoIngreso OnIngreso;
-
+        public event DelegadoPedidoEnCurso<T> OnPedido;
     }
 }

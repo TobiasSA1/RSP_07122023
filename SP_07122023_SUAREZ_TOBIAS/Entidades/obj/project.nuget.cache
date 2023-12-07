@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OkNgf5ZiB1lloJImf+Rkj7JPS7TbtbsKKHBKIiyog1bOfEdXdfKj0qNYrkODgARzhfHcOE31BItTfXUXCm/1uQ==",
+  "dgSpecHash": "x2Ot4qxXOgBPCDiaxYgDGak0IoF+Fr93lL0vPz/QbkLu8qDXjIysS+gwpk6iBLhBtTrleOaiOeyEJm1ZlZ8/0g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Tobas\\Desktop\\SP_07122023_SUAREZ_TOBIAS\\Entidades\\Entidades.csproj",
+  "projectFilePath": "C:\\Users\\Tobas\\Desktop\\RSP_07122023\\SP_07122023_SUAREZ_TOBIAS\\Entidades\\Entidades.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Tobas\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Tobas\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
