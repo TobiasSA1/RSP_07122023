@@ -1,0 +1,12 @@
+07/12/2023 16:50:56 - Entidades.Exceptions.FileManagerException: Error el directorio ya existe.
+   at Entidades.Files.FileManager.ValidaExistenciaDeDirectorio() in C:\Users\Tobas\Desktop\SP_07122023_ALUMNO\Entidades\Archivos\FileManager.cs:line 28
+07/12/2023 17:13:58 - Entidades.Exceptions.FileManagerException: Error el directorio ya existe.
+   at Entidades.Files.FileManager.ValidaExistenciaDeDirectorio() in C:\Users\Tobas\Desktop\SP_07122023_ALUMNO\Entidades\Archivos\FileManager.cs:line 28
+07/12/2023 17:36:22 - Entidades.Exceptions.FileManagerException: Error el directorio ya existe.
+   at Entidades.Files.FileManager.ValidaExistenciaDeDirectorio() in C:\Users\Tobas\Desktop\SP_07122023_ALUMNO\Entidades\Archivos\FileManager.cs:line 28
+07/12/2023 17:37:07 - Entidades.Exceptions.FileManagerException: Error el directorio ya existe.
+   at Entidades.Files.FileManager.ValidaExistenciaDeDirectorio() in C:\Users\Tobas\Desktop\SP_07122023_ALUMNO\Entidades\Archivos\FileManager.cs:line 28
+07/12/2023 17:44:23 - Entidades.Exceptions.FileManagerException: Error el directorio ya existe.
+   at Entidades.Files.FileManager.ValidaExistenciaDeDirectorio() in C:\Users\Tobas\Desktop\SP_07122023_ALUMNO\Entidades\Archivos\FileManager.cs:line 28
+07/12/2023 17:49:52 - Entidades.Exceptions.FileManagerException: Error el directorio ya existe.
+   at Entidades.Files.FileManager.ValidaExistenciaDeDirectorio() in C:\Users\Tobas\Desktop\SP_07122023_ALUMNO\Entidades\Archivos\FileManager.cs:line 28

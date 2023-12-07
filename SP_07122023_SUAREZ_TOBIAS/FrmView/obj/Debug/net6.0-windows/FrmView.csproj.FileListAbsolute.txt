@@ -1,0 +1,81 @@
+E:\Facultad\5-Profesorado\2023 - DIV C\Proyectos C#\Parciales\SP_LABO\SP_22062023_ALUMNO\FrmView\obj\Debug\net6.0-windows\FrmView.csproj.AssemblyReference.cache
+E:\Facultad\5-Profesorado\2023 - DIV C\Proyectos C#\Parciales\SP_LABO\SP_22062023_ALUMNO\FrmView\obj\Debug\net6.0-windows\FrmView.FrmView.resources
+E:\Facultad\5-Profesorado\2023 - DIV C\Proyectos C#\Parciales\SP_LABO\SP_22062023_ALUMNO\FrmView\obj\Debug\net6.0-windows\FrmView.Properties.Resources.resources
+E:\Facultad\5-Profesorado\2023 - DIV C\Proyectos C#\Parciales\SP_LABO\SP_22062023_ALUMNO\FrmView\obj\Debug\net6.0-windows\FrmView.csproj.GenerateResource.cache
+E:\Facultad\5-Profesorado\2023 - DIV C\Proyectos C#\Parciales\SP_LABO\SP_22062023_ALUMNO\FrmView\obj\Debug\net6.0-windows\FrmView.GeneratedMSBuildEditorConfig.editorconfig
+E:\Facultad\5-Profesorado\2023 - DIV C\Proyectos C#\Parciales\SP_LABO\SP_22062023_ALUMNO\FrmView\obj\Debug\net6.0-windows\FrmView.AssemblyInfoInputs.cache
+E:\Facultad\5-Profesorado\2023 - DIV C\Proyectos C#\Parciales\SP_LABO\SP_22062023_ALUMNO\FrmView\obj\Debug\net6.0-windows\FrmView.AssemblyInfo.cs
+E:\Facultad\5-Profesorado\2023 - DIV C\Proyectos C#\Parciales\SP_LABO\SP_22062023_ALUMNO\FrmView\obj\Debug\net6.0-windows\FrmView.csproj.CoreCompileInputs.cache
+E:\Facultad\5-Profesorado\2023 - DIV C\Proyectos C#\Parciales\SP_LABO\SP_22062023_ALUMNO\FrmView\bin\Debug\net6.0-windows\FrmView.exe
+E:\Facultad\5-Profesorado\2023 - DIV C\Proyectos C#\Parciales\SP_LABO\SP_22062023_ALUMNO\FrmView\bin\Debug\net6.0-windows\FrmView.deps.json
+E:\Facultad\5-Profesorado\2023 - DIV C\Proyectos C#\Parciales\SP_LABO\SP_22062023_ALUMNO\FrmView\bin\Debug\net6.0-windows\FrmView.runtimeconfig.json
+E:\Facultad\5-Profesorado\2023 - DIV C\Proyectos C#\Parciales\SP_LABO\SP_22062023_ALUMNO\FrmView\bin\Debug\net6.0-windows\FrmView.dll
+E:\Facultad\5-Profesorado\2023 - DIV C\Proyectos C#\Parciales\SP_LABO\SP_22062023_ALUMNO\FrmView\bin\Debug\net6.0-windows\FrmView.pdb
+E:\Facultad\5-Profesorado\2023 - DIV C\Proyectos C#\Parciales\SP_LABO\SP_22062023_ALUMNO\FrmView\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+E:\Facultad\5-Profesorado\2023 - DIV C\Proyectos C#\Parciales\SP_LABO\SP_22062023_ALUMNO\FrmView\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+E:\Facultad\5-Profesorado\2023 - DIV C\Proyectos C#\Parciales\SP_LABO\SP_22062023_ALUMNO\FrmView\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+E:\Facultad\5-Profesorado\2023 - DIV C\Proyectos C#\Parciales\SP_LABO\SP_22062023_ALUMNO\FrmView\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+E:\Facultad\5-Profesorado\2023 - DIV C\Proyectos C#\Parciales\SP_LABO\SP_22062023_ALUMNO\FrmView\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\Facultad\5-Profesorado\2023 - DIV C\Proyectos C#\Parciales\SP_LABO\SP_22062023_ALUMNO\FrmView\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\Facultad\5-Profesorado\2023 - DIV C\Proyectos C#\Parciales\SP_LABO\SP_22062023_ALUMNO\FrmView\bin\Debug\net6.0-windows\Entidades.dll
+E:\Facultad\5-Profesorado\2023 - DIV C\Proyectos C#\Parciales\SP_LABO\SP_22062023_ALUMNO\FrmView\bin\Debug\net6.0-windows\Entidades.pdb
+E:\Facultad\5-Profesorado\2023 - DIV C\Proyectos C#\Parciales\SP_LABO\SP_22062023_ALUMNO\FrmView\obj\Debug\net6.0-windows\FrmView.csproj.CopyComplete
+E:\Facultad\5-Profesorado\2023 - DIV C\Proyectos C#\Parciales\SP_LABO\SP_22062023_ALUMNO\FrmView\obj\Debug\net6.0-windows\FrmView.dll
+E:\Facultad\5-Profesorado\2023 - DIV C\Proyectos C#\Parciales\SP_LABO\SP_22062023_ALUMNO\FrmView\obj\Debug\net6.0-windows\refint\FrmView.dll
+E:\Facultad\5-Profesorado\2023 - DIV C\Proyectos C#\Parciales\SP_LABO\SP_22062023_ALUMNO\FrmView\obj\Debug\net6.0-windows\FrmView.pdb
+E:\Facultad\5-Profesorado\2023 - DIV C\Proyectos C#\Parciales\SP_LABO\SP_22062023_ALUMNO\FrmView\obj\Debug\net6.0-windows\FrmView.genruntimeconfig.cache
+E:\Facultad\5-Profesorado\2023 - DIV C\Proyectos C#\Parciales\SP_LABO\SP_22062023_ALUMNO\FrmView\obj\Debug\net6.0-windows\ref\FrmView.dll
+C:\Users\Tobas\Desktop\SP_07122023_ALUMNO\FrmView\obj\Debug\net6.0-windows\FrmView.csproj.AssemblyReference.cache
+C:\Users\Tobas\Desktop\SP_07122023_ALUMNO\FrmView\obj\Debug\net6.0-windows\FrmView.FrmView.resources
+C:\Users\Tobas\Desktop\SP_07122023_ALUMNO\FrmView\obj\Debug\net6.0-windows\FrmView.Properties.Resources.resources
+C:\Users\Tobas\Desktop\SP_07122023_ALUMNO\FrmView\obj\Debug\net6.0-windows\FrmView.csproj.GenerateResource.cache
+C:\Users\Tobas\Desktop\SP_07122023_ALUMNO\FrmView\obj\Debug\net6.0-windows\FrmView.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tobas\Desktop\SP_07122023_ALUMNO\FrmView\obj\Debug\net6.0-windows\FrmView.AssemblyInfoInputs.cache
+C:\Users\Tobas\Desktop\SP_07122023_ALUMNO\FrmView\obj\Debug\net6.0-windows\FrmView.AssemblyInfo.cs
+C:\Users\Tobas\Desktop\SP_07122023_ALUMNO\FrmView\obj\Debug\net6.0-windows\FrmView.csproj.CoreCompileInputs.cache
+C:\Users\Tobas\Desktop\SP_07122023_ALUMNO\FrmView\bin\Debug\net6.0-windows\FrmView.exe
+C:\Users\Tobas\Desktop\SP_07122023_ALUMNO\FrmView\bin\Debug\net6.0-windows\FrmView.deps.json
+C:\Users\Tobas\Desktop\SP_07122023_ALUMNO\FrmView\bin\Debug\net6.0-windows\FrmView.runtimeconfig.json
+C:\Users\Tobas\Desktop\SP_07122023_ALUMNO\FrmView\bin\Debug\net6.0-windows\FrmView.dll
+C:\Users\Tobas\Desktop\SP_07122023_ALUMNO\FrmView\bin\Debug\net6.0-windows\FrmView.pdb
+C:\Users\Tobas\Desktop\SP_07122023_ALUMNO\FrmView\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\Tobas\Desktop\SP_07122023_ALUMNO\FrmView\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\Tobas\Desktop\SP_07122023_ALUMNO\FrmView\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\Tobas\Desktop\SP_07122023_ALUMNO\FrmView\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\Tobas\Desktop\SP_07122023_ALUMNO\FrmView\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Tobas\Desktop\SP_07122023_ALUMNO\FrmView\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Tobas\Desktop\SP_07122023_ALUMNO\FrmView\bin\Debug\net6.0-windows\Entidades.dll
+C:\Users\Tobas\Desktop\SP_07122023_ALUMNO\FrmView\bin\Debug\net6.0-windows\Entidades.pdb
+C:\Users\Tobas\Desktop\SP_07122023_ALUMNO\FrmView\obj\Debug\net6.0-windows\FrmView.csproj.CopyComplete
+C:\Users\Tobas\Desktop\SP_07122023_ALUMNO\FrmView\obj\Debug\net6.0-windows\FrmView.dll
+C:\Users\Tobas\Desktop\SP_07122023_ALUMNO\FrmView\obj\Debug\net6.0-windows\refint\FrmView.dll
+C:\Users\Tobas\Desktop\SP_07122023_ALUMNO\FrmView\obj\Debug\net6.0-windows\FrmView.pdb
+C:\Users\Tobas\Desktop\SP_07122023_ALUMNO\FrmView\obj\Debug\net6.0-windows\FrmView.genruntimeconfig.cache
+C:\Users\Tobas\Desktop\SP_07122023_ALUMNO\FrmView\obj\Debug\net6.0-windows\ref\FrmView.dll
+C:\Users\Tobas\Desktop\SP_07122023_SUAREZ_TOBIAS\FrmView\bin\Debug\net6.0-windows\FrmView.exe
+C:\Users\Tobas\Desktop\SP_07122023_SUAREZ_TOBIAS\FrmView\bin\Debug\net6.0-windows\FrmView.deps.json
+C:\Users\Tobas\Desktop\SP_07122023_SUAREZ_TOBIAS\FrmView\bin\Debug\net6.0-windows\FrmView.runtimeconfig.json
+C:\Users\Tobas\Desktop\SP_07122023_SUAREZ_TOBIAS\FrmView\bin\Debug\net6.0-windows\FrmView.dll
+C:\Users\Tobas\Desktop\SP_07122023_SUAREZ_TOBIAS\FrmView\bin\Debug\net6.0-windows\FrmView.pdb
+C:\Users\Tobas\Desktop\SP_07122023_SUAREZ_TOBIAS\FrmView\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\Tobas\Desktop\SP_07122023_SUAREZ_TOBIAS\FrmView\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\Tobas\Desktop\SP_07122023_SUAREZ_TOBIAS\FrmView\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\Tobas\Desktop\SP_07122023_SUAREZ_TOBIAS\FrmView\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\Tobas\Desktop\SP_07122023_SUAREZ_TOBIAS\FrmView\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Tobas\Desktop\SP_07122023_SUAREZ_TOBIAS\FrmView\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Tobas\Desktop\SP_07122023_SUAREZ_TOBIAS\FrmView\bin\Debug\net6.0-windows\Entidades.dll
+C:\Users\Tobas\Desktop\SP_07122023_SUAREZ_TOBIAS\FrmView\bin\Debug\net6.0-windows\Entidades.pdb
+C:\Users\Tobas\Desktop\SP_07122023_SUAREZ_TOBIAS\FrmView\obj\Debug\net6.0-windows\FrmView.csproj.AssemblyReference.cache
+C:\Users\Tobas\Desktop\SP_07122023_SUAREZ_TOBIAS\FrmView\obj\Debug\net6.0-windows\FrmView.FrmView.resources
+C:\Users\Tobas\Desktop\SP_07122023_SUAREZ_TOBIAS\FrmView\obj\Debug\net6.0-windows\FrmView.Properties.Resources.resources
+C:\Users\Tobas\Desktop\SP_07122023_SUAREZ_TOBIAS\FrmView\obj\Debug\net6.0-windows\FrmView.csproj.GenerateResource.cache
+C:\Users\Tobas\Desktop\SP_07122023_SUAREZ_TOBIAS\FrmView\obj\Debug\net6.0-windows\FrmView.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tobas\Desktop\SP_07122023_SUAREZ_TOBIAS\FrmView\obj\Debug\net6.0-windows\FrmView.AssemblyInfoInputs.cache
+C:\Users\Tobas\Desktop\SP_07122023_SUAREZ_TOBIAS\FrmView\obj\Debug\net6.0-windows\FrmView.AssemblyInfo.cs
+C:\Users\Tobas\Desktop\SP_07122023_SUAREZ_TOBIAS\FrmView\obj\Debug\net6.0-windows\FrmView.csproj.CoreCompileInputs.cache
+C:\Users\Tobas\Desktop\SP_07122023_SUAREZ_TOBIAS\FrmView\obj\Debug\net6.0-windows\FrmView.csproj.CopyComplete
+C:\Users\Tobas\Desktop\SP_07122023_SUAREZ_TOBIAS\FrmView\obj\Debug\net6.0-windows\FrmView.dll
+C:\Users\Tobas\Desktop\SP_07122023_SUAREZ_TOBIAS\FrmView\obj\Debug\net6.0-windows\refint\FrmView.dll
+C:\Users\Tobas\Desktop\SP_07122023_SUAREZ_TOBIAS\FrmView\obj\Debug\net6.0-windows\FrmView.pdb
+C:\Users\Tobas\Desktop\SP_07122023_SUAREZ_TOBIAS\FrmView\obj\Debug\net6.0-windows\FrmView.genruntimeconfig.cache
+C:\Users\Tobas\Desktop\SP_07122023_SUAREZ_TOBIAS\FrmView\obj\Debug\net6.0-windows\ref\FrmView.dll

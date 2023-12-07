@@ -1,0 +1,36 @@
+E:\Facultad\5-Profesorado\2023 - DIV C\Proyectos C#\Parciales\SP_LABO\SP_22062023_ALUMNO\Entidades\bin\Debug\net6.0\Entidades.deps.json
+E:\Facultad\5-Profesorado\2023 - DIV C\Proyectos C#\Parciales\SP_LABO\SP_22062023_ALUMNO\Entidades\bin\Debug\net6.0\Entidades.dll
+E:\Facultad\5-Profesorado\2023 - DIV C\Proyectos C#\Parciales\SP_LABO\SP_22062023_ALUMNO\Entidades\bin\Debug\net6.0\Entidades.pdb
+E:\Facultad\5-Profesorado\2023 - DIV C\Proyectos C#\Parciales\SP_LABO\SP_22062023_ALUMNO\Entidades\obj\Debug\net6.0\Entidades.csproj.AssemblyReference.cache
+E:\Facultad\5-Profesorado\2023 - DIV C\Proyectos C#\Parciales\SP_LABO\SP_22062023_ALUMNO\Entidades\obj\Debug\net6.0\Entidades.GeneratedMSBuildEditorConfig.editorconfig
+E:\Facultad\5-Profesorado\2023 - DIV C\Proyectos C#\Parciales\SP_LABO\SP_22062023_ALUMNO\Entidades\obj\Debug\net6.0\Entidades.AssemblyInfoInputs.cache
+E:\Facultad\5-Profesorado\2023 - DIV C\Proyectos C#\Parciales\SP_LABO\SP_22062023_ALUMNO\Entidades\obj\Debug\net6.0\Entidades.AssemblyInfo.cs
+E:\Facultad\5-Profesorado\2023 - DIV C\Proyectos C#\Parciales\SP_LABO\SP_22062023_ALUMNO\Entidades\obj\Debug\net6.0\Entidades.csproj.CoreCompileInputs.cache
+E:\Facultad\5-Profesorado\2023 - DIV C\Proyectos C#\Parciales\SP_LABO\SP_22062023_ALUMNO\Entidades\obj\Debug\net6.0\Entidades.dll
+E:\Facultad\5-Profesorado\2023 - DIV C\Proyectos C#\Parciales\SP_LABO\SP_22062023_ALUMNO\Entidades\obj\Debug\net6.0\refint\Entidades.dll
+E:\Facultad\5-Profesorado\2023 - DIV C\Proyectos C#\Parciales\SP_LABO\SP_22062023_ALUMNO\Entidades\obj\Debug\net6.0\Entidades.pdb
+E:\Facultad\5-Profesorado\2023 - DIV C\Proyectos C#\Parciales\SP_LABO\SP_22062023_ALUMNO\Entidades\obj\Debug\net6.0\ref\Entidades.dll
+C:\Users\Tobas\Desktop\SP_07122023_ALUMNO\Entidades\bin\Debug\net6.0\Entidades.deps.json
+C:\Users\Tobas\Desktop\SP_07122023_ALUMNO\Entidades\bin\Debug\net6.0\Entidades.dll
+C:\Users\Tobas\Desktop\SP_07122023_ALUMNO\Entidades\bin\Debug\net6.0\Entidades.pdb
+C:\Users\Tobas\Desktop\SP_07122023_ALUMNO\Entidades\obj\Debug\net6.0\Entidades.csproj.AssemblyReference.cache
+C:\Users\Tobas\Desktop\SP_07122023_ALUMNO\Entidades\obj\Debug\net6.0\Entidades.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tobas\Desktop\SP_07122023_ALUMNO\Entidades\obj\Debug\net6.0\Entidades.AssemblyInfoInputs.cache
+C:\Users\Tobas\Desktop\SP_07122023_ALUMNO\Entidades\obj\Debug\net6.0\Entidades.AssemblyInfo.cs
+C:\Users\Tobas\Desktop\SP_07122023_ALUMNO\Entidades\obj\Debug\net6.0\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Tobas\Desktop\SP_07122023_ALUMNO\Entidades\obj\Debug\net6.0\Entidades.dll
+C:\Users\Tobas\Desktop\SP_07122023_ALUMNO\Entidades\obj\Debug\net6.0\refint\Entidades.dll
+C:\Users\Tobas\Desktop\SP_07122023_ALUMNO\Entidades\obj\Debug\net6.0\Entidades.pdb
+C:\Users\Tobas\Desktop\SP_07122023_ALUMNO\Entidades\obj\Debug\net6.0\ref\Entidades.dll
+C:\Users\Tobas\Desktop\SP_07122023_SUAREZ_TOBIAS\Entidades\bin\Debug\net6.0\Entidades.deps.json
+C:\Users\Tobas\Desktop\SP_07122023_SUAREZ_TOBIAS\Entidades\bin\Debug\net6.0\Entidades.dll
+C:\Users\Tobas\Desktop\SP_07122023_SUAREZ_TOBIAS\Entidades\bin\Debug\net6.0\Entidades.pdb
+C:\Users\Tobas\Desktop\SP_07122023_SUAREZ_TOBIAS\Entidades\obj\Debug\net6.0\Entidades.csproj.AssemblyReference.cache
+C:\Users\Tobas\Desktop\SP_07122023_SUAREZ_TOBIAS\Entidades\obj\Debug\net6.0\Entidades.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tobas\Desktop\SP_07122023_SUAREZ_TOBIAS\Entidades\obj\Debug\net6.0\Entidades.AssemblyInfoInputs.cache
+C:\Users\Tobas\Desktop\SP_07122023_SUAREZ_TOBIAS\Entidades\obj\Debug\net6.0\Entidades.AssemblyInfo.cs
+C:\Users\Tobas\Desktop\SP_07122023_SUAREZ_TOBIAS\Entidades\obj\Debug\net6.0\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Tobas\Desktop\SP_07122023_SUAREZ_TOBIAS\Entidades\obj\Debug\net6.0\Entidades.dll
+C:\Users\Tobas\Desktop\SP_07122023_SUAREZ_TOBIAS\Entidades\obj\Debug\net6.0\refint\Entidades.dll
+C:\Users\Tobas\Desktop\SP_07122023_SUAREZ_TOBIAS\Entidades\obj\Debug\net6.0\Entidades.pdb
+C:\Users\Tobas\Desktop\SP_07122023_SUAREZ_TOBIAS\Entidades\obj\Debug\net6.0\ref\Entidades.dll

@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="Entidades.Files.FileManager" BaseTypeListCollapsed="true">
+    <Position X="3.25" Y="3.5" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAACAAAAACAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Archivos\FileManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.Excepciones.ComidaInvalidaExeption">
+    <Position X="8.75" Y="1.75" Width="5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Excepciones\ComidaInvalidaExeption.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.Exceptions.DataBaseManagerException">
+    <Position X="8.75" Y="3.25" Width="5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Excepciones\DataBaseManagerException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.Exceptions.FileManagerException">
+    <Position X="8.75" Y="5" Width="5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Excepciones\FileManagerException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.DataBase.DataBaseManager" Collapsed="true">
+    <Position X="9.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgBAAAAAAAAEAAAAAAQAAAAAAA=</HashCode>
+      <FileName>DB\DataBaseManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.Modelos.Cocinero&lt;T&gt;" Collapsed="true">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EQAAAAAgAAAAAACAAIAAgAiIgAACgAAIAAAAQAAAAAA=</HashCode>
+      <FileName>Modelos\Cocinero.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.Modelos.Hamburguesa" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAmABAIAAAAAAAAAAAAAAAEAAAAgAAAAQAAAAAAAA=</HashCode>
+      <FileName>Modelos\Hamburguesa.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Entidades.MetodosDeExtension.IngredientesExtension">
+    <Position X="4" Y="7" Width="5.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>MetodosDeExtension\IngredientesExtension.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Entidades.Interfaces.IComestible">
+    <Position X="2.75" Y="1.25" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AoAAAAAAAAAAAAACAAAAAAAAAAAAABAAAAAAAAAAAAg=</HashCode>
+      <FileName>Interfaces\IComestible.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Entidades.Enumerados.EIngrediente" Collapsed="true">
+    <Position X="1.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEABAAAAAAAAAAAAAAQAQAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Enumerados\Enumerados.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="Entidades.Modelos.DelegadoDemoraAtencion" Collapsed="true">
+    <Position X="4.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Modelos\Cocinero.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="Entidades.Modelos.DelegadoNuevoIngreso" Collapsed="true">
+    <Position X="6.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Modelos\Cocinero.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
