@@ -127,6 +127,20 @@ namespace FrmView
                     this.btnAbrir.Image = Properties.Resources.open_icon;
                 }
             }
+            catch (DataBaseManagerException ex)
+            {
+                MessageBox.Show($"{ex.Message}", "Atención", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                FileManager.RegistrarExcepcion(ex);
+
+                Exception innerException = ex.InnerException;
+                while (innerException != null)
+                {
+                    MessageBox.Show($"{innerException.Message}", "Atención", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    FileManager.RegistrarExcepcion(innerException);
+
+                    innerException = innerException.InnerException;
+                }
+            }
             catch (Exception ex)
             {
                 MessageBox.Show("Error al abrir la cocina.", "Atencion", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
